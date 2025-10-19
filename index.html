@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Personal Portfolio - Chukwuma Henry</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <div class="logo">
+          <img src="images/portfolio logo.png" alt="portfolio logo" />
+          <h1>Chukwuma Henry</h1>
+        </div>
+        <div class="menu">
+          <a href="#" id="hero-ham"><i class="fa-solid fa-bars"></i></a>
+          <a href="#" id="hero-ham2"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+      </div>
+
+      <nav id="contentMenu" class="main-nav">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav class="sub-nav">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-me-content">
+        <div>
+        <img src="images/portfolio-image.jpg" alt="" />
+        </div>
+        <p>
+          Hello! I'm <span>Chukwuma Henry</span>, a passionate web developer
+          with a knack for creating engaging and user-friendly websites. With a
+          strong foundation in HTML, CSS, and JavaScript, I enjoy bringing ideas
+          to life in the digital world. When I'm not coding, you can find me
+          exploring new technologies or indulging in my love for photography.
+          Let's connect and create something amazing together!
+          <a href="#projects">view my projects</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li class="project-card">
+          <img src="images/project-1.jpg" alt="sunny side project" />
+          <h3>Sunnyside-project</h3>
+          <p>
+            A simple landing page created with HTML, CSS and a bit JS for the
+            functionality of the navbar.
+          </p>
+          <a href="https://henryik08.github.io/sunnyside-project/">live Demo</a>
+        </li>
+        <li class="project-card">
+          <img src="images/project-2.jpg" alt="clipbord project" />
+
+          <h3>Clipbord-project</h3>
+          <p>
+            A landing page created using HTML, CSS and includes some hover
+            states.
+          </p>
+          <a href="https://henryik08.github.io/clipboard-project/">live Demo</a>
+        </li>
+        <li class="project-card">
+          <img src="images/project-3.jpg" alt="huddle alternate project" />
+
+          <h3>Huddle page alternate-project</h3>
+          <p>
+            A landing page with alternating section content created with HTML
+            and CSS.
+          </p>
+          <a href="https://henryik08.github.io/huddle-page-alternate/"
+            >live Demo</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Form</h2>
+      <form class="contact-form">
+        <!-- <label for="name">Name:</label> -->
+        <input type="text" id="name" name="name" placeholder="Your name..." required />
+
+        <!-- <label for="email">Email:</label> -->
+        <input type="email" id="email" name="email" placeholder="Your email..." required />
+
+        <!-- <label for="message">Message:</label> -->
+        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div>
+        <p>Connect with me! →</p>
+      <a
+        href="https://www.linkedin.com/in/henry-chukwuma-5507b0231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        ><i class="fa-brands fa-linkedin-in"></i
+      ></a>
+      <a href="https://x.com/ik__henry?t=W0EkBtO0U9yzz1Z24uYQIw&s=09"
+        ><i class="fa-brands fa-x-twitter"></i
+      ></a>
+      <a href="https://www.instagram.com/fadalurd?igsh=MW80aDJuNGh5eHNiMg=="
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+      <a href="https://github.com/Henryik08"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      </div>
+
+        <p >&copy; 2025 Chukwuma Henry. All rights reserved.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
